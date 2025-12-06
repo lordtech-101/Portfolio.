@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Css</title>
+  <style>
+  
+body {
+  background-image: url('https://i.supaimg.com/7930708c-e77f-4857-94f2-cf118d6703bb.jpg');
+  background-size: cover;
+  background-position: 75%;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+
+.card {
+  height: auto;
+  weight: auto;
+  background: linear-gradient(to top, blue, darkblue);
+  color: white;
+  border: 9px;
+  opacity: 9px;
+  border-radius: 9px;
+  align-items: center;
+  padding: 10px;
+  align-items: left;
+  margin-top: 50px;
+}
+
+.card2 {
+  height: auto;
+  background: url('https://i.supaimg.com/718d23f6-b453-47c9-83ae-871a3c30925b.jpg') center/cover no-repeat;
+  animation: bgSlide2 6s infinite alternate;
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.8);
+  color: white;
+  border-radius: 9px;
+  margin-top: 75px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+@keyframes bgSlide2 {
+  0% {
+    background-image: url('https://i.supaimg.com/718d23f6-b453-47c9-83ae-871a3c30925b.jpg');
+  }
+  50% {
+    background-image: url('https://i.supaimg.com/e8f6e375-0420-4a9b-9cd5-7019afc8ff1c.jpg');
+  }
+  100% {
+    background-image: url('https://i.supaimg.com/718d23f6-b453-47c9-83ae-871a3c30925b.jpg');
+  }
+}
+
+
+.card3 {
+  height: auto;
+  background: url('https://i.supaimg.com/aa8cd0c7-7161-4dcb-bcfb-fbf9cfc57fc8.jpg') center/cover no-repeat;
+  animation: bgSlide3 6s infinite alternate;
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.8);
+  color: white;
+  border-radius: 9px;
+  margin-top: 75px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+@keyframes bgSlide3 {
+  0% {
+    background-image: url('https://i.supaimg.com/aa8cd0c7-7161-4dcb-bcfb-fbf9cfc57fc8.jpg');
+  }
+  50% {
+    background-image: url('https://i.supaimg.com/2e2066ff-1253-4d8f-b0e2-8ee415e174b2.jpg');
+  }
+  100% {
+    background-image: url('https://i.supaimg.com/aa8cd0c7-7161-4dcb-bcfb-fbf9cfc57fc8.jpg');
+  }
+}
+
+
+.card {
+  height: auto;
+  weight: auto;
+  background: linear-gradient(to top, blue, darkblue);
+  color: white;
+  border: 9px;
+  opacity: 9px;
+  border-radius: 9px;
+  align-items: center;
+  padding: 10px;
+  align-items: left;
+  margin-top: 50px;
+}
+
+.circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 7px solid blue;
+  box-shadow: 0 0 6px 7px rgba(0,0,0,0.9);
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  top: 50px;
+  object-fit: cover;
+  object-position: center 40px; /* Move focus upward to face */
+  transform: scale(2.6);       /* Zoom in on the face */
+}
+
+
+
+h2 {
+  font-size: 40px;
+  font-family: times new roman;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: times new roman;
+  background: linear-gradient(to right, blue, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h5{
+  font-size: 20px;
+}
+
+h3{
+  font-size: 50px;
+  background: linear-gradient(to right, blue, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+p {
+  font-family: times new roman;
+  text-align: left;
+}
+p4 {
+  font-family: times new roman;
+  text-align: center;
+  color: blue;
+}
+
+p1 {
+  font-family: arial bold;
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: auto;
+}
+
+button {
+  height: auto;
+  weight: auto;
+  background: white;
+  box-shadow: 4px 4px 12px rgba(0,0,0,0.5);
+  color: black;
+  border: 9px;
+  border-radius: 6px;
+  margin-left: 150px;
+  padding: 10px;
+  align-items: right;
+}
+
+.social-links {
+  margin-top: 50px;
+  box-shadow: 4px 4px 6px rgba(0,0,0,0.5);
+  padding: 10px;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+
+
+.slide-text {
+  position: relative;
+  overflow: hidden;
+  weight: auto;
+  height: 100px;  
+  }
+
+
+
+
+.slide-text p1 {
+  position: relative;
+  overflow: hidden;
+  width: auto;
+  background: linear-gradient(to right, red, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: auto;
+  left: auto;
+  opacity: 0;
+  animation: slideInOut 12s infinite; 
+  top: 15px;
+}
+
+.slide-text p:nth-child(1) {
+  animation-delay: 12s;
+}
+
+@keyframes slideInOut {
+  0% { left: 100%; opacity: 0; }
+  10% { left: 0; opacity: 1; }
+  90% { left: 0; opacity: 1; }
+  100% { left: -100%; opacity: 0; }
+}
+
+
+
+
+  </style>
+</head>
+<body>
+  <div class="circle">
+     <div class="img">  
+      <img src="https://i.supaimg.com/fad02ad4-1c17-4060-aca1-eb04531ea2c1.jpg" alt="Gideon Image">  
+    </div>  
+  </div>
+  <h3>Gid Fashion </h3>
+   <h4>Your One-Stop Holiday & Event Hub!</h4>
+  
+  <p4> Whether you're celebrating Christmas, hosting a ceremony, or planning a memorable event, Gid Fashion has everything you need in one place!</p4>
+     <div class="card">
+     <h2>🖌️ Creative Services</h2>
+    
+<p>🔑- Custom Christmas flyers & event designs</p>
+<p>🔑- Beautiful ceremony invitations ?</p>
+<p>🔑- Eye-catching social media ads ?</p>
+<p>🔑- High-quality event banners ?</p>
+<p>(All tailored to your theme!)  </p>
+     
+     </div>
+  
+  
+   <div class="card2">     
+       <h2>Event Setup & Decoration</h2>
+       
+     <a href="https://wa.me/+2349136573852"><button>For More Info ➤</button></a>
+  </div>
+
+<div class="slide-text">
+<p1>- Elegant event decorations  </p1> </div>
+<div class="slide-text"> <p1>- Stunning lighting setups (bulbs, LEDs, etc.)  </p1> </div>
+<div class="slide-text"> <p1>- Balloon decor, table styling & more  </p1> </div>
+<div class="slide-text"> <p1>- Perfect for birthdays, weddings, Christmas parties, and more!  </p1>
+     </div>
+  
+  <div class="card3">
+       <h2>Fashion & Style</h2>
+    <a href="https://wa.me/+2349136573852"><button>For More Info ➤</button></a>
+  </div>
+
+
+<div class="slide-text"><p1> - Trendy Christmas clothes & seasonal wear 🎅  </p1></div>
+<div class="slide-text"><p1> - Stylish shoes – sneakers, heels, slides 👠👟  </p1></div>
+<div class="slide-text"><p1> - Fashionable jewelry – earrings, necklaces, bracelets 💎  </p1></div>
+<div class="slide-text"><p1> - Accessories: glasses, wristbands, caps, and more 🕶️🎀🧢 </p1></div>
+
+  <div class="card">
+    <h5>📦 We Deliver Quality + Style + Vibes!</h5>
+
+ <h5>📍 Available for bookings, orders & custom designs</h5>
+ <h5>📞 Contact Gid Fashion today – Let’s make your season unforgettable!</h5>
+    <a href="https://wa.me/+2349136573852"><button>Contact Us ➔</button></a>
+  </div>
+ 
+  
+ 
+ <div class="social-links">
+    <a href="https://t.me/lordtech101" target="_blank">
+        <img src="https://cdn.simpleicons.org/telegram/FFFFFF" width="35">
+    </a>
+
+
+    <a href="https://wa.me/+2349136573852" target="_blank">
+        <img src="https://cdn.simpleicons.org/whatsApp/FFFFFF" width="35">
+    </a>
+   
+   <a href="mailto:lordtech101@gmail.com" target="_blank">
+      <img src="https://cdn.simpleicons.org/gmail/FFFFFF" width="35">
+    </a>
+ 
+</div>
+
+
+ </body>
+</html>
